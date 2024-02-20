@@ -44,7 +44,7 @@ body{
     
 }
 #nome-receita{
-    height:60px;
+    height: 150px;
     width: 80rem;
     background-color: rgb(114, 6, 255);
     display: flex;
@@ -64,6 +64,5 @@ body{
     width: 80rem;
     background-color: rgb(29, 61, 4);
     display: flex;
-
     align-items: center;
 }   
