@@ -44,8 +44,13 @@ body{
     
 }
 #nome-receita{
-    
+    height:60px;
+    width: 80rem;
+    background-color: rgb(114, 6, 255);
+    display: flex;
+    align-items: center;
 }
+
 #div-legendas{
     height:60px;
     width: 80rem;
