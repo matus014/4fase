@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+    <link rel="stylesheet" href="estilos/botoes.css">
+    <link rel="stylesheet" href="estilos/inputs.css">
+    <link rel="stylesheet" href="estilos/div_cadastrar.css">
+    <link rel="stylesheet" href="estilos/textos.css">
+</head>
+<body>
+    <div id="container">
+        <div id="topo">
+            <label id="titulo">CRUD DE RECEITAS</label>
+        </div>  
+        <div id="transição_de_tela">
+            <button class="botao efect_button_1" id="btn-pg-cadastro" onclick="PaginaCadastro()" >CADASTRO</button>
+            <button class="botao efect_button_1" id="btn-pg-pesquisar" onclick="PaginaPesquisar()">PESQUISAR</button>
+            <button class="botao efect_button_1 excluir" id="btn-pg-excluir" onclick="PaginaExcluir()">EXLUIR</button>
+        </div>
+        <div id="corpo">
+            <div id="nome-receita">
+                <input placeholder="Nome" type="text"  class="input efect_inp_2">
+                <textarea id="msg" name="msg" rows="4" cols="50"  style="resize: none" class="inputArea efect_inp_2" placeholder="Descreva o preparo" ></textarea>
+            </div>
+            <div id="div-legendas">
+                <label class="tex" for="text">INGREDIENTE</label>
+                <label class="tex" for="text">QUANTIDADE</label>
+                <label class="tex" for="text">MEDIDA</label>
+            </div>
+            <div id="campos">
+                <input id="inp_ingrediente" placeholder="Ingrediente" type="text"  class="input efect_inp_1">
+                <input id="inp_quantidade" placeholder="quantidade" type="number" min="0"  class="input efect_inp_2">
+                <input id="inp_medida" placeholder="unidade de medida" type="text"  class="input efect_inp_1">
+            </div>
+            <div id="sub-final">
+                <button class="add" id="" onclick="Add()">+</button>
+            </div>
+            <div id="final">
+                <button class="botao" id="btn-cadastrar" onclick="Cadastrar()">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
